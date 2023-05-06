@@ -1,5 +1,5 @@
 <template>
-  <h1>hello world</h1>
+  <div class="min-h-screen w-full bg-gray-800 text-white"></div>
 </template>
 
 <script setup>
