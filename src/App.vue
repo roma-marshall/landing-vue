@@ -19,20 +19,25 @@
       </nav>
       <div class="grid grid-cols-2 pt-6">
         <div>
-          <div class="w-36 border-t border-gray-700 pt-2">
+          <div class="flex items-center gap-6 w-36 border-t border-gray-700 pt-2">
             <span class="text-sm font-normal text-teal-500">hello@razor.de</span>
+            <ArrowRight class="h-4 w-4 text-teal-500"/>
           </div>
-          <span>Get the app</span>
-          <h1 class="text-5xl font-bold leading-tight tracking-tight">Enter your email. We'll send you a download
-            link</h1>
-          <div>
-            <input type="text">
-            <button>Get Link</button>
-          </div>
-          <p>By signing up, I agree to the Razor Privacy Policy & Terms of Service</p>
-          <div>
-            <button>Play Store</button>
-            <button>App Store</button>
+          <div class="pt-16">
+            <span>&#8212; Get the App</span>
+            <h1 class="text-5xl font-bold leading-tight tracking-tight pt-6">
+              Enter your email <br />
+              &#8212; We'll send you a download link
+            </h1>
+            <div>
+              <input type="text">
+              <button>Get Link</button>
+            </div>
+            <p>By signing up, I agree to the Razor Privacy Policy & Terms of Service</p>
+            <div>
+              <button>Play Store</button>
+              <button>App Store</button>
+            </div>
           </div>
         </div>
         <div></div>
@@ -42,7 +47,7 @@
 </template>
 
 <script setup>
-
+import ArrowRight from './icons/arrow-right.svg'
 </script>
 
 <style scoped>
