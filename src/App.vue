@@ -25,7 +25,7 @@
           </div>
           <div class="pt-16">
             <span>&#8212; Get the App</span>
-            <h1 class="text-5xl font-bold leading-tight tracking-tight pt-6">
+            <h1 class="text-6xl font-bold tracking-tight pt-6 bg-gradient-to-br from-blue-400 to-emerald-400 bg-clip-text text-transparent">
               Enter your email <br />
               &#8212; We'll send you a download link
             </h1>
