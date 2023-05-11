@@ -18,7 +18,7 @@
         </div>
       </nav>
       <div class="grid grid-cols-2 pt-6">
-        <div>
+        <div class="max-w-xl pr-24">
           <div class="flex items-center gap-6 w-36 border-t border-gray-700 pt-2">
             <span class="text-sm font-normal text-teal-500">hello@razor.de</span>
             <ArrowRight class="h-4 w-4 text-teal-500"/>
