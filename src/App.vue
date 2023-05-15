@@ -29,8 +29,8 @@
               Enter your email <br />
               &#8212; We'll send you a download link
             </h1>
-            <div>
-              <input type="text">
+            <div class="flex items-center">
+              <input type="text" class="px-6 py-4">
               <button>Get Link</button>
             </div>
             <p>By signing up, I agree to the Razor Privacy Policy & Terms of Service</p>
