@@ -30,8 +30,8 @@
               &#8212; We'll send you a download link
             </h1>
             <div class="flex items-center">
-              <input type="text" class="px-6 py-4">
-              <button>Get Link</button>
+              <input type="text" class="px-6 py-4 border-2 border-gray-700">
+              <button class="px-6 py-4 border-2 border-gray-700">Get Link</button>
             </div>
             <p>By signing up, I agree to the Razor Privacy Policy & Terms of Service</p>
             <div>
