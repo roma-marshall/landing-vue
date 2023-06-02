@@ -30,10 +30,14 @@
               &#8212; We'll send you a download link
             </h1>
             <div class="flex items-center mt-10">
-              <input type="text" class="px-6 py-4 border-2 border-gray-700 bg-gray-900">
-              <button class="px-6 py-4 border-2 border-gray-700 bg-teal-500 text-gray-900 font-bold">Get Link</button>
+              <input type="text" class="px-6 py-4 flex-1 rounded-l-xl border-2 border-r-0 border-gray-700 bg-gray-900 leading-6 focus:outline-none">
+              <button class="px-6 py-4 rounded-r-xl border-2 border-l-0 border-gray-700 bg-teal-500 text-gray-900 text-lg leading-6 font-bold">Get Link</button>
             </div>
-            <p>By signing up, I agree to the Razor Privacy Policy & Terms of Service</p>
+            <p class="pt-8 font-normal tracking-wide text-gray-600">
+              By signing up, I agree to the Razor
+              <a href="" class="text-gray-500 underline">Privacy Policy</a> &
+              <a href="" class="text-gray-500 underline">Terms of Service</a>
+            </p>
             <div>
               <button>Play Store</button>
               <button>App Store</button>
