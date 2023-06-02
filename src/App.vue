@@ -38,9 +38,15 @@
               <a href="" class="text-gray-500 underline">Privacy Policy</a> &
               <a href="" class="text-gray-500 underline">Terms of Service</a>
             </p>
-            <div>
-              <button>Play Store</button>
-              <button>App Store</button>
+            <div class="flex items-center gap-4 pt-12">
+              <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900">
+                <PlayStoreIcon class="h-7 w-7"/>
+                Play Store
+              </button>
+              <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900">
+                <AppleIcon class="h-7 w-7"/>
+                App Store
+              </button>
             </div>
           </div>
         </div>
@@ -52,6 +58,8 @@
 
 <script setup>
 import ArrowRight from './icons/arrow-right.svg'
+import AppleIcon from './icons/apple.svg'
+import PlayStoreIcon from './icons/play-store.svg'
 </script>
 
 <style scoped>
