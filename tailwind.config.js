@@ -18,9 +18,12 @@ export default {
           500: "#CDCED3",
         },
         teal: {
-          500: '#00C39A'
-        }
-      }
+          500: "#00C39A"
+        },
+      },
+      boxShadow: {
+        glow: "0 0 0 1px var(--tw-shadow-color),0 0 12px 0 var(--tw-shadow-color)"
+      },
     },
   },
   plugins: [],
