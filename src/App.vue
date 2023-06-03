@@ -47,11 +47,11 @@
               <a href="" class="text-gray-500 underline">Terms of Service</a>
             </p>
             <div class="flex items-center gap-4 pt-12">
-              <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900">
+              <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900 shadow-glow hover:shadow-teal-500/40 hover:-translate-y-1 transition ease-out">
                 <PlayStoreIcon class="h-7 w-7" />
                 Play Store
               </button>
-              <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900">
+              <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900 shadow-glow hover:shadow-teal-500/40 hover:-translate-y-1 transition ease-out">
                 <AppleIcon class="h-7 w-7" />
                 App Store
               </button>
