@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen w-full bg-gray-800 text-white relative">
-    <Circle class="absolute top-0 left-0 -translate-x-1/4 -translate-y-1/4 opacity-40" />
-    <div class="bg-gray-900 inset-y-0 right-0 w-2/5 absolute"></div>
+    <Circle class="hidden md:block absolute top-0 left-0 -translate-x-1/4 -translate-y-1/4 opacity-40" />
+    <div class="hidden md:block bg-gray-900 inset-y-0 right-0 w-2/5 absolute"></div>
     <div class="mx-auto max-w-7xl px-4 pt-8 relative">
       <nav class="flex items-center justify-between">
         <div class="flex items-center gap-32">
@@ -42,7 +42,7 @@
           </a>
         </div>
       </nav>
-      <div class="grid grid-cols-2 pt-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 pt-6">
         <div class="max-w-xl pr-24">
           <div class="flex items-center gap-6 w-48 border-t border-gray-700 pt-2">
             <span class="text-sm font-normal text-teal-500/90 cursor-pointer hover:text-teal-500 transition-colors duration-300">hello@xstudio.dev</span>
@@ -78,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="pt-10">
+        <div class="pt-10 hidden md:block">
           <div class="flex justify-center gap-8">
             <img src="/img/screen-1.png" alt="" class="h-full w-64 animate-hover" />
             <img src="/img/screen-2.png" alt="" class="h-full w-64 pt-20 animate-hover" />
