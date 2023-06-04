@@ -60,8 +60,8 @@
         </div>
         <div class="pt-10">
           <div class="flex justify-center gap-8">
-            <img src="/img/screen-1.png" alt="" class="h-full w-64" />
-            <img src="/img/screen-2.png" alt="" class="h-full w-64 pt-20" />
+            <img src="/img/screen-1.png" alt="" class="h-full w-64 animate-hover" />
+            <img src="/img/screen-2.png" alt="" class="h-full w-64 pt-20 animate-hover" />
           </div>
         </div>
       </div>
