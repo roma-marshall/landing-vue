@@ -10,27 +10,32 @@
             <li>
               <a href="#" class="group hover:text-white transition duration-300">
                 Product
-                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+              </a>
             </li>
             <li>
               <a href="#" class="group hover:text-white transition duration-300">
                 Resource
-                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+              </a>
             </li>
             <li>
               <a href="#" class="group hover:text-white transition duration-300">
                 Support
-                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+              </a>
             </li>
             <li>
               <a href="#" class="group hover:text-white transition duration-300">
                 Pricing
-                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+              </a>
             </li>
             <li>
               <a href="#" class="group hover:text-white transition duration-300">
                 Blog
-                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+              </a>
             </li>
           </ul>
         </div>
