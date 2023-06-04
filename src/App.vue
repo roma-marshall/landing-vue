@@ -45,7 +45,7 @@
       <div class="grid grid-cols-2 pt-6">
         <div class="max-w-xl pr-24">
           <div class="flex items-center gap-6 w-48 border-t border-gray-700 pt-2">
-            <span class="text-sm font-normal text-teal-500 cursor-pointer">hello@xstudio.dev</span>
+            <span class="text-sm font-normal text-teal-500/90 cursor-pointer hover:text-teal-500 transition-colors duration-300">hello@xstudio.dev</span>
             <ArrowRight class="h-4 w-4 text-teal-500" />
           </div>
           <div class="pt-16">
@@ -59,12 +59,12 @@
               <input type="text"
                      placeholder="sales@xstudio.dev"
                      class="flex-1 rounded-l-xl border-2 border-r-0 border-gray-700 bg-gray-900 leading-6 focus:outline-none px-8 py-4">
-              <button class="px-8 py-4 rounded-r-xl border-2 border-l-0 border-gray-700 bg-teal-500 text-gray-900 text-lg leading-6 font-bold">Get Link</button>
+              <button class="px-8 py-4 rounded-r-xl border-2 border-l-0 border-gray-700 bg-teal-500/90 hover:bg-teal-500 transition-colors duration-300 text-gray-900 text-lg leading-6 font-bold">Get Link</button>
             </div>
             <p class="pt-8 font-normal tracking-wide text-gray-600">
               By signing up, I agree to the Razor
-              <a href="" class="text-gray-500 underline">Privacy Policy</a> &
-              <a href="" class="text-gray-500 underline">Terms of Service</a>
+              <a href="" class="text-gray-500 underline hover:text-white">Privacy Policy</a> &
+              <a href="" class="text-gray-500 underline hover:text-white">Terms of Service</a>
             </p>
             <div class="flex items-center gap-4 pt-12">
               <button class="flex items-center gap-2 px-6 py-4 text-gray-500 rounded-xl bg-gray-900 shadow-glow hover:shadow-teal-500/40 hover:-translate-y-1 transition ease-out">
