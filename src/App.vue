@@ -7,11 +7,31 @@
         <div class="flex items-center gap-32">
           <a href="#" class="text-2xl font-bold">Razor</a>
           <ul class="flex items-center gap-12 font-medium text-gray-500">
-            <li><a href="#" class="hover:text-white">Product</a></li>
-            <li><a href="#" class="hover:text-white">Resource</a></li>
-            <li><a href="#" class="hover:text-white">Support</a></li>
-            <li><a href="#" class="hover:text-white">Pricing</a></li>
-            <li><a href="#" class="hover:text-white">Blog</a></li>
+            <li>
+              <a href="#" class="group hover:text-white transition duration-300">
+                Product
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+            </li>
+            <li>
+              <a href="#" class="group hover:text-white transition duration-300">
+                Resource
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+            </li>
+            <li>
+              <a href="#" class="group hover:text-white transition duration-300">
+                Support
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+            </li>
+            <li>
+              <a href="#" class="group hover:text-white transition duration-300">
+                Pricing
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+            </li>
+            <li>
+              <a href="#" class="group hover:text-white transition duration-300">
+                Blog
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span></a>
+            </li>
           </ul>
         </div>
         <div class="flex items-center gap-4 font-medium text-gray-500">
@@ -25,7 +45,7 @@
       <div class="grid grid-cols-2 pt-6">
         <div class="max-w-xl pr-24">
           <div class="flex items-center gap-6 w-48 border-t border-gray-700 pt-2">
-            <span class="text-sm font-normal text-teal-500">hello@xstudio.dev</span>
+            <span class="text-sm font-normal text-teal-500 cursor-pointer">hello@xstudio.dev</span>
             <ArrowRight class="h-4 w-4 text-teal-500" />
           </div>
           <div class="pt-16">
