@@ -10,3 +10,5 @@ npm run dev
 ```
 
 source: https://tailwindcss.com/docs/guides/vite#vue
+
+<img width="1440" alt="Screenshot 2023-06-04 at 10 09 11" src="https://github.com/roma-marshall/razor-landing-vue/assets/79694559/fe71e0de-d357-454b-a5ca-0f87250e2b39">
